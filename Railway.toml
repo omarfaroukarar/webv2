@@ -1,0 +1,8 @@
+[build]
+command = "./gradlew build"
+
+[deploy]
+command = "java -jar app/build/libs/app.war"
+
+[services]
+postgresql = "postgresql-railway"
